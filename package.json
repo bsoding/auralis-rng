@@ -1,0 +1,22 @@
+{
+  "name": "auralis-rng",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsoding/auralis-rng.git"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.21.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
